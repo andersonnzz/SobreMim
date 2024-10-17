@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #131212;
+}
+
+header{
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: #FFFFFF;
+    font-weight: 600;
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    box-shadow: 0 4px 8px #510F4C;
+}
+
+header a{
+    text-decoration: none;
+}
+
+#inicio div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#inicio{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 0 130px 0 250px;
+    position: relative;
+    text-align: center;
+}
+
+
+h2{
+    font-weight: 600;
+    font-size: 30px;
+    /* margin-bottom: 2px; */
+}
+
+h1{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.paragrafo {
+    line-height: 150%;
+    margin-bottom: 32px;  
+} 
+
+.botao {
+    background-color: #510F4C;
+    /* vertical, horizontal */
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.botao-transparente {
+    background-color: transparent;
+    color: #510F4C;
+    padding: 16px 32px;
+    text-underline-offset: 4px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.botao, .botao-transparente{
+    display: inline-flexbox;
+    position: relative;
+}
+
+#inicio .botao-transparente:hover{
+    box-shadow: 0 4px 8px #510F4C;
+}
+
+#inicio .botao:hover{
+    box-shadow: 0 4px 8px #000000;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* width: 37%; */
+    z-index: -7;
+}
+
+#quemSou{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.fotos{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.left{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#texto{
+    width: 900px;
+    font-size: 20px;
+}
+
+.absolute-quemSou{
+    position: absolute;
+    z-index: -10;
+    right: 0;
+}

@@ -1,0 +1,117 @@
+/* Estilo responsivo */
+
+/* Para telas entre 1024px e 768px */
+@media (max-width: 1024px) {
+    /* Escondendo os fundos roxos */
+    .absolute, .absolute-quemSou {
+        display: none;
+    }
+
+    #inicio {
+        flex-direction: column;
+        gap: 50px;
+        padding: 0 50px;
+    }
+
+    #quemSou {
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px 40px;
+    }
+
+    #texto {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 28px;
+    }
+
+    .fotos img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Para telas entre 768px e 480px */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 20px;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+
+    /* Escondendo os fundos roxos */
+    .absolute, .absolute-quemSou {
+        display: none;
+    }
+
+    #inicio {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .botao, .botao-transparente {
+        padding: 12px 24px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    #texto {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .fotos img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* Para telas menores que 480px */
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px 10px;
+    }
+
+    nav a {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    /* Escondendo os fundos roxos */
+    .absolute, .absolute-quemSou {
+        display: none;
+    }
+
+    #inicio {
+        padding: 0 10px;
+        gap: 20px;
+    }
+
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    .botao, .botao-transparente {
+        padding: 10px 20px;
+    }
+
+    #texto {
+        font-size: 14px;
+    }
+
+    .fotos img {
+        width: 150px;
+        height: 150px;
+    }
+}
